@@ -28,3 +28,10 @@ The Authentication flow for the aplication is:
 | POST   | /joke                | yes   | User  | Create  Joke          | `value`, `category_id`       | { menssage: `string`, result: `object`} 
 | PUT    | /joke/:id/like       | yes   | User  | add Like to Joke      |                              | { menssage: `string`, result: `object`} 
 | POST   | /joke/:id/favorite   | yes   | User  | add Like to Joke      |                              | { menssage: `string`, result: `object`} 
+
+
+
+
+
+
+Instalado en este proyecto: adayvega@MacBook-Pro-de-Aday TELCHISTES-3000 % npm i express mysql2 sequelize nodemon dotenv bcrypt jsonwebtoken
