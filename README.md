@@ -5,7 +5,7 @@ The Authentication flow for the aplication is:
 | METHOD | ENDPOINT             | TOKEN | ROLE  | DESCRIPTION           | POST PARAMS                  | RETURNS                 |
 |--------|----------------------|-------|-------|-----------------------|------------------------------|-------------------------|
 | POST   | /auth/singup         | -     | User  | User Singup           | `name`, `email`,`password`,  | { menssage: `string`, result: `token`} 
-| POST   | /auth/singup         | -     | User  | User Loging           | `email`, `password`          | { menssage: `string`, result: `token`} 
+| POST   | /auth/login          | -     | User  | User Loging           | `email`, `password`          | { menssage: `string`, result: `token`} 
 
 ### User Endpoints
 
